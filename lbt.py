@@ -100,6 +100,20 @@ def login():
                 topics(i)
             else:
                 break
+
+# def filtrar(user: Usuario):
+#     while True:
+#         fileteredIssues = []
+#         print("Introducza tag para filtrar los topics o ponga 'salir' para volver a todos los topics")
+#         tag = input()
+#         if tag == 'salir':
+#             break
+#         else:
+#             for i in issues:
+#                 if tag in i.tags:
+#                     fileteredIssues.append(i)
+
+
         
 
 def verTopic(user:Usuario, issue: Issue):
